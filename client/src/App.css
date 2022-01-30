@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: rgb(162, 238, 215);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #0f5350;
+  width: 100vw;
+}
+
+/* Home */
+.home{
+  width: 100vh;
+  text-align: center;
+  color: #0f5350;
+}
+.title-home{
+  font-size: 4rem;
+}
+
+/* About */
+.about-title{
+  color: #0f5350;
+}
+
+/* Sign up */
+.signup{
+  width: 400px;
+  background: white;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+input{
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1rem;
+}
+
+.form-title{
+  color: #0f5350;
+  font-weight: 1000;
+  font-size: 2.5rem;
+}
+
+#signup-button{
+  background: #0f5350;
+  border: 1px solid #0f5350;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Sign in */
+.signin{
+  width: 400px;
+  background: white;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#signin-button{
+  background: #0f5350;
+  border: 1px solid #0f5350;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
